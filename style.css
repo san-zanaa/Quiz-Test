@@ -45,6 +45,13 @@ body {
     background: #222;
     color: #fff;
 }
+.btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+.btn:disabled {
+    cursor: not-allowed;
+}
 #next {
     width: 130px;
     padding: 10px;
