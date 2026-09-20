@@ -56,4 +56,11 @@ body {
     border: none;
     border-radius: 8px;
     display: none;
+    cursor: pointer;
+}
+.correct {
+    background: #9aeabc;
+}
+.incorrect {
+    background: #ff9393;
 }
